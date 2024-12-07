@@ -23,7 +23,39 @@ The project aims to:
 - **Database**: MySQL  
 - **Build Tool**: Maven  
 
+# Creating the Spring Boot Project Using Spring Initializer
 
+## Step 1: Go to Spring Initializer
+Visit [Spring Initializer](https://start.spring.io).
+
+## Step 2: Configure the Project Settings
+
+- **Project**: Maven  
+- **Language**: Java  
+- **Spring Boot Version**: 2.7.15  
+- **Group**: `com`  
+- **Artifact**: `Recruitment-Management-System`  
+- **Name**: Recruitment-Management-System  
+- **Description**: A web application for managing recruitment processes.  
+- **Packaging**: Jar  
+- **Java Version**: 8  
+
+## Step 3: Add Dependencies
+
+- **Spring Web**: For building web applications.  
+- **Spring Data JPA**: For interacting with the database.  
+- **Spring Security**: For securing the application.  
+- **Thymeleaf**: For building the UI templates.  
+- **MySQL Driver**: For MySQL database connectivity.  
+
+## Step 4: Download and Extract the Project
+- Click the **"Generate"** button to download the project.  
+- Extract the ZIP file and open it in your favorite IDE (e.g., IntelliJ IDEA, Eclipse, or Visual Studio Code).
+
+## Step 5: Customize the Project Structure
+After generating the project, start implementing the directory structure and additional configurations as mentioned in the documentation.
+
+---
 
 ## Steps to Run the Application
 
